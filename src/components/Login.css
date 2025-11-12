@@ -1,0 +1,64 @@
+/* Modern Login Page CSS */
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: "Poppins", sans-serif;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box h2.title {
+  margin-bottom: 20px;
+  color: #2d3436;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.login-box input:focus {
+  border-color: #0984e3;
+}
+
+.login-box button {
+  background: #0984e3;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #74b9ff;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.note a {
+  color: #0984e3;
+  text-decoration: none;
+}
