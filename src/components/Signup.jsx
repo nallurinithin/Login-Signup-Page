@@ -43,7 +43,7 @@ export default function Signup() {
   return (
     <div className="signup-container">
       <div className="signup-box">
-        <h2>Signup from main</h2>
+        <h2>Signup from RAKESH-validation branch</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
