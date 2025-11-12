@@ -43,7 +43,7 @@ export default function Signup() {
   return (
     <div className="signup-container">
       <div className="signup-box">
-        <h2>Signup from MAIN</h2>
+        <h2>Signup from RAKESH</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
