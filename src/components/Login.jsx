@@ -17,7 +17,7 @@ export default function Login() {
         <form onSubmit={handleSubmit}>
           <input
             type="email"
-            placeholder="Enter your Email"
+            placeholder="Enter Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
