@@ -14,7 +14,6 @@ export default function Login() {
     <div className="login-container">
       <div className="login-box">
         <h2 className="title">Login</h2>
-        <h3>Performing diff command</h3>
         <form onSubmit={handleSubmit}>
           <input
             type="email"
